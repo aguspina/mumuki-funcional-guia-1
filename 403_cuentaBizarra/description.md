@@ -7,12 +7,12 @@ Definir la función `cuentaBizarra`, que recibe un par y:
 Por ejemplo:
 
 ```javascript
-> cuentaBizarra (5,8)
+> cuentaBizarra([5,8])
 40
 
-> cuentaBizarra (8,5)
+> cuentaBizarra([8,5])
 13
 
-> cuentaBizarra (5,29)
+> cuentaBizarra([5,29])
 24
 ```

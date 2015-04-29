@@ -1,15 +1,15 @@
-Tenemos dos parciales con dos recuperatorios, y lo representamos mediante un par de pares `((parc1,parc2),(recup1,recup2))`.
+Tenemos dos parciales con dos recuperatorios, y lo representamos mediante un par de pares `[[parc1,parc2],[recup1,recup2]]`.
 
 Se pide desarrollar una función `notasFinales` que diga cuales fueron las notas finales del primer y segundo parcial. Por ejemplo:
 
 
-```haskell
-Main> notasFinales ((2,7),(6,-1))
-(6,7)
-Main> notasFinales ((2,2),(6,2))
-(6,2)
-Main> notasFinales ((8,7),(-1,-1))
-(8,7)
+```javascript
+> notasFinales([[2,7],[6,-1]])
+[6,7]
+> notasFinales([[2,2],[6,2]])
+[6,2]
+> notasFinales([[8,7],[-1,-1]])
+[8,7]
 ```
 
 Considerar que:

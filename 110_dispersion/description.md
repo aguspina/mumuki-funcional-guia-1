@@ -2,7 +2,7 @@ Trabajamos con tres enteros que representan el nivel de un río en tres días co
 
 Definir la función ```dispersion```, que toma los tres valores y devuelve la diferencia entre el más alto y el más bajo. Ejemplo:
 
-```haskell
-> dispersion 22 283 294
+```javascript
+> dispersion(22, 283, 294)
 272
 ```

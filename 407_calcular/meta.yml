@@ -1,9 +1,7 @@
 tags:
-  - pdep
   - guia1
   - basico
   - aritmetica
-  - tuplas
-  - composicion
-  - aplicacionParcial
+  - arrays
+  - inmutabilidad
 locale: es

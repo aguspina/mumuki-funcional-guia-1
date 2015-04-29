@@ -1,3 +1,8 @@
+//Temporal fix
+function esMultiploDe(x, y) {
+  return x % y == 0;
+}
+
 describe("esBisiesto", function() {
   it("1004 es bisiesto", function() {
     assert(esBisiesto(1004));

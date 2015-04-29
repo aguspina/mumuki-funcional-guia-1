@@ -1,3 +1,9 @@
+//Temporal fix
+function fahrToCelsius(x) {
+ return (x - 32) * 5 / 9;
+}
+
+
 describe("haceFrioF", function() {
   it("212 °F no es frio", function() {
     assert(!haceFrioF(212));

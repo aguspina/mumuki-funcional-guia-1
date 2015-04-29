@@ -1,21 +1,29 @@
-describe "notas" $ do
-  describe "esNotaBochazo" $ do
-    it "5 no es una nota bochazo" $ do
-      esNotaBochazo 5  `shouldBe` False
+describe("notas", function() {
+  describe("esNotaBochazo", function() {
+    it("5 no es una nota bochazo", function() {
+      esNotaBochazo 5  `shouldBe` False;
+    });
 
-    it "2 es una nota bochazo" $ do
-      esNotaBochazo 2  `shouldBe` True
+    it("2 es una nota bochazo", function() {
+      esNotaBochazo 2  `shouldBe` True;
+    });
+  });
+  describe("aprobo", function() {
+    it("aprobo (5,4) == true", function() {
+      aprobo (5,4) `shouldBe` True;
+    });
 
-  describe "aprobo" $ do 
-    it "aprobo (5,4) == Si aprobo" $ do
-      aprobo (5,4) `shouldBe` True
-	
-    it "aprobo (3,10) == No aprobo" $ do
-	    aprobo (3,10) `shouldBe` False
+    it("aprobo (3,10) == false", function() {
+	    aprobo (3,10) `shouldBe` False;
+    });
+  });
+  describe("promociono", function() {
+    it("promociono (7,8) == true", function() {
+      promociono (7,8) `shouldBe` True;
+    });
 
-  describe "promociono" $ do
-    it "promociono (7,8) == Si promociono" $ do
-      promociono (7,8) `shouldBe` True
-
-    it "promociono (6,6) == No promociono" $ do
-      promociono (6,6) `shouldBe` False
+    it("promociono (6,6) == false", function() {
+      promociono (6,6) `shouldBe` False;
+    });
+  });
+});

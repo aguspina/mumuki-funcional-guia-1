@@ -1,6 +1,6 @@
-Definir la función ```esMultiploDeTres/1```, que devuelve ```True``` si un número es múltiplo de 3, p.ej:
+Definir la función ```esMultiploDeTres```, que dice si un número es múltiplo de 3, p.ej:
 
 ```
-Main> esMultiploDeTres 9
-True
+> esMultiploDeTres(9)
+true
 ```

@@ -16,6 +16,6 @@ describe("cubo", function(){
   });
 
   it("devuelve -1 dado un -1", function(){
-    assert.strictEqual(cubo(-1), 1);
+    assert.strictEqual(cubo(-1), -1);
   });
 })

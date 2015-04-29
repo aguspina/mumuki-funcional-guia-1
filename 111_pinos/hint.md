@@ -1,5 +1,4 @@
-Intentar resolverlo de tres formas:
+Intentar resolverlo de dos formas:
 
-* Usando guardas
-* Sin guardas y usando las funciones `min` y `max`
-* Usando composición
+* Usando ifs
+* Sin ifs y usando las funciones `min` y `max`

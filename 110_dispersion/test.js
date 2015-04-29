@@ -1,17 +1,17 @@
 describe("dispersion", function() {
   it("dispersion(1, 1, 1) == 0", function() {
-    expect(dispersion(1, 1, 1)).to.equal(0);
+    assert.strictEqual(dispersion(1, 1, 1), 0);
   });
 
   it("dispersion(1, 1, 10) == 9", function() {
-    expect(dispersion(1, 1, 10)).to.equal(9);
+    assert.strictEqual(dispersion(1, 1, 10), 9);
   });
 
   it("dispersion(11, 15, 4) == 11", function() {
-    expect(dispersion(11, 15, 4)).to.equal(11);
+    assert.strictEqual(dispersion(11, 15, 4), 11);
   });
 
   it("dispersion(101, 1, 203) == 202", function() {
-    expect(dispersion(101, 1, 203)).to.equal(202);
+    assert.strictEqual(dispersion(101, 1, 203), 202);
   });
 });

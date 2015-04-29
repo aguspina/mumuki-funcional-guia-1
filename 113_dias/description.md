@@ -10,12 +10,12 @@ Definir las siguientes funciones que reciben los valores de los tres días, y no
 
 Ejemplo:
 
-```haskell
-> diasParejos 110 98 100
-True
+```javascript
+> diasParejos(110, 98, 100)
+true
 ```
 
-```haskell
-> diasNormales 1 200 500
-False
+```javascript
+> diasNormales(1, 200, 500)
+false
 ```

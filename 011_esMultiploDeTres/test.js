@@ -1,14 +1,14 @@
 describe("esMultiploDeTres", function(){
   it( "devuelve True dado un 3", function(){
-    expect(esMultiploDeTres(3  )).to.be.true;
+    assert(esMultiploDeTres(3));
   });
-  it ("devuelve True dado un 9", function(){
-    expect(esMultiploDeTres( 9)).to.be.true;
+  it(("devuelve True dado un 9", function(){
+    assert(esMultiploDeTres( 9));
   });
-  it ("devuelve True dado un 90", function(){
-    expect(esMultiploDeTres(90)).to.be.true;
+  it(("devuelve True dado un 90", function(){
+    assert(esMultiploDeTres(90));
   })
-  it ("devuelve False dado un 91", function(){
-    expect(esMultiploDeTres(91)).to.be.false;
+  it(("devuelve False dado un 91", function(){
+    assert(!esMultiploDeTres(91));
   })
 })

@@ -1,17 +1,17 @@
 describe("celsiusToFahr", function() {
   it("100 °C -> 212 °F", function() {
-    expect(celsiusToFahr(100)).to.equal(212);
+    assert.strictEqual(celsiusToFahr(100), 212);
   });
 
   it("40 °C -> 104 °F", function() {
-    expect(celsiusToFahr(40)).to.equal(104);
+    assert.strictEqual(celsiusToFahr(40), 104);
   });
 
   it("10 °C -> 50 °F", function() {
-    expect(celsiusToFahr(10)).to.equal(50);
+    assert.strictEqual(celsiusToFahr(10), 50);
   });
 
   it("30 °C -> 86 °F", function() {
-    expect(celsiusToFahr(30)).to.equal(86);
+    assert.strictEqual(celsiusToFahr(30), 86);
   });
 });

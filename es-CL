@@ -1,9 +1,12 @@
-Definir la función `mcm/2` que devuelva el mínimo común múltiplo entre dos números, de acuerdo a esta fórmula:
+describe "haceFrioF" $ do
+  it "212 °F no es frio" $ do
+    haceFrioF 212 `shouldBe` False
 
-```
-m.c.m.(a, b) = (a * b) / (m.c.d.(a, b))
-```
+  it "104 °F no es frio" $ do
+    haceFrioF 104 `shouldBe` False
 
-Más información: [Mínimo Común Múltiplo](http://es.wikipedia.org/wiki/M%C3%ADnimo_com%C3%BAn_m%C3%BAltiplo)
+  it "50 °F no es frio" $ do
+    haceFrioF 50 `shouldBe` False
 
-**Nota**: Se puede utilizar `gcd`.
+  it "5 °F es frio" $ do
+    haceFrioF 5 `shouldBe` True

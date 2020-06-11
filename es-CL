@@ -1,10 +1,9 @@
-3.4. Definir una función `incrementMCuadradoN`, que invocándola con 2 números m y n, incrementa un valor m al cuadrado de n por Ej:
-
-```haskell
-Main> incrementMCuadradoN 3 2
-11
-```
-
-Incrementa 2 al cuadrado de 3, da como resultado 11.
-
-`Nota: Resolverlo utilizando aplicación parcial y composición.`
+describe "inversaRaizCuadrada" $ do
+  it "inversaRaizCuadrada 4 == 0.5" $ do
+    inversaRaizCuadrada 4 `shouldBe` 0.5
+	
+  it "inversaRaizCuadrada 16 == 0.25" $ do
+    inversaRaizCuadrada 16 `shouldBe` 0.25
+	
+  it "inversaRaizCuadrada 100 == 0.1" $ do
+    inversaRaizCuadrada 100 `shouldBe` 0.1

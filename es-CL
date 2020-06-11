@@ -1,8 +1,9 @@
-3.3. Resolver la función `inversaRaizCuadrada/1`, que da un número n devolver la inversa su raíz cuadrada.
+describe "siguiente" $ do
+  it "siguiente 1 == 2" $ do
+    siguiente 1 `shouldBe` 2
 
-```haskell
-Main> inversaRaizCuadrada 4
-0.5
-```
+  it "siguiente 4 == 5" $ do
+    siguiente 4 `shouldBe` 5
 
-`Nota: Resolverlo utilizando la función inversa Ej. 2.3, sqrt y composición.`
+  it "siguiente 100 == 101" $ do
+    siguiente 100 `shouldBe` 101
